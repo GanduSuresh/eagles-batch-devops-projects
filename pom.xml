@@ -10,9 +10,9 @@
   <name>Maven Project</name>
   <description>Sample Maven project with a working, deployable site.</description>
   <url>http://www.example.com</url>
+    <project.build.sourceEncod
 
-  <properties>
-    <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
+  <properties>ing>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
   </properties>      
          
@@ -29,11 +29,11 @@
     </site>
     <snapshotRepository>
             <id>nexus</id>
-            <url>http://172.31.10.0:8081/repository/maven-snapshots/</url>
+            <url>http://43.204.237.59:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
             <id>nexus</id>
-            <url>http://172.31.10.0:8081/repository/maven-releases/</url>
+            <url>http://43.204.237.59:8081/repository/maven-snapshots/</url>
         </repository>
   </distributionManagement>
 
